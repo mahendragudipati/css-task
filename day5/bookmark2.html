@@ -3,7 +3,7 @@
 <head>
     <style>
         body{
-            background-color:white;
+            background-color: ;
         }
        
         
@@ -34,6 +34,16 @@
         margin-top: 30px;
         border-radius: 90px;
      }
+     #mahi:target{
+        border: 2px solid blue;
+     }
+     |
+     #yy:target{
+        border: 2px solid black;
+        background-color: black;
+     }
+     
+       
     </style>
 </head>
 <body>
@@ -46,25 +56,26 @@
     <input type="search" placeholder="search...." size="70">
     <input type="button" value="search"><br>
    <a href="">HOME</a>
-   <a href="#men">MENS WEAR</a>
+   
+   <a id="mahi" href="m">MENS WEAR</a>
    <a href="#yy">WOMENS WEAR</a>
    <a href="">CONTACT</a>
    <a href="">HELP</a>
    <div id="men">
    <CENter>
-   <h3 style="color:rgb(190, 11, 11);"><U>MENS WEAR</U></h3>
+   <<h3 style="color:rgb(190, 11, 11);" id="mahi"><U>MENS WEAR</U> ></h3>
 
-   <img src="../image/men.png"width=1000 height="500" alt="">
+  <div style="border: 2px black; "><img src="../image/men.png"width=1000 height="500" alt=""></div> 
    <img src="../image/wear.png"width=1000 height="500" alt="">
    </CENter>
    </div>
    <div id="yy">
    <center>
-   <h3 style="color: rgb(255, 0, 0);"><u>WOMENS WEAR</u></h3>
+   <h3 style="color: rgb(255, 0, 0);"><u id="ww">WOMENS WEAR</u></h3>
    <img src="../image/women.png"width=1000 height="500" alt="">
    <img src="../image/women wear.png"width=1000 height="500" alt="">
 </CENter>
-   </div>
+   </div></div>
 </div>
 </body>
 </html>
