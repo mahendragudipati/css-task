@@ -1,76 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
-        #perent{
-           position: absolute;
-           left: 300px;
-           
+        #perent {
+            position: absolute;
+            left: 300px;
+
         }
-        a{
+
+        a {
             margin: 10px;
             font-size: 20px;
             text-decoration: none;
             color: black;
         }
-        h1{
+
+        h1 {
             position: absolute;
             left: 640px;
         }
-        hr{
+
+        hr {
             height: 5px;
             width: 1500px;
-            background-color:rgba(0, 0, 0, 0.137);
+            background-color: rgba(0, 0, 0, 0.137);
         }
-        .main{
-            width: 350px;
-            display: flex;
 
-        }
-        .main div{
-            width: 500px;
-            margin: 10px;
-        }
-        #car{
+        .main {
             display: flex;
-            width: 350px;
-        
+            flex-wrap: wrap;
+           
         }
-        #car div{
+
+        .main div {
+            width:350px;
+            margin:60px;
+
+            
+        }
+
+        #car {
+            display: flex;
+        }
+
+        #car div {
             margin: 10px;
         }
-        #perent{
-          position: absolute;
-          left:550px;
+
+        #perent {
+            position: absolute;
+            left: 550px;
         }
-        #box{
+
+        #box {
             border: 1px solid rgba(0, 0, 0, 0.526);
             color: rgb(238, 244, 244);
-            background: linear-gradient(to right,rgba(0, 0, 0, 0.533) 95%,rgba(74, 72, 72, 0.27) 5%);
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.533) 95%, rgba(74, 72, 72, 0.27) 5%);
             height: 30px;
             line-height: 30px;
             text-align: center;
-            border-radius:5PX
+            border-radius: 5PX
         }
-        #box1{
+
+        #box1 {
             border: 1px solid rgba(30, 31, 29, 0.907);
             color: rgb(249, 248, 248);
-            background: linear-gradient(to right,rgba(48, 57, 53, 0.652) 85%,rgba(75, 73, 73, 0.216) 15%);
+            background: linear-gradient(to right, rgba(48, 57, 53, 0.652) 85%, rgba(75, 73, 73, 0.216) 15%);
             height: 30px;
             line-height: 30px;
             text-align: center;
-            border-radius:5PX
-        } 
-        #box2{
+            border-radius: 5PX
+        }
+
+        #box2 {
             border: 1px solid rgba(0, 0, 0, 0.526);
             color: rgb(242, 243, 243);
-            background: linear-gradient(to right,rgba(0, 0, 0, 0.533) 80%,rgba(75, 73, 73, 0.216) 20%);
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.533) 80%, rgba(75, 73, 73, 0.216) 20%);
             height: 30px;
             line-height: 30px;
             text-align: center;
-            border-radius:5PX
-        } 
-        #box3{
+            border-radius: 5PX
+        }
+
+        #box3 {
             border: 1px solid rgba(0, 0, 0, 0.526);
             color: rgb(240, 244, 244);
             background-color: rgba(0, 0, 0, 0.542);
@@ -78,115 +91,141 @@
             height: 40px;
             text-align: center;
             line-height: 33px;
-            border-radius:5PX
+            border-radius: 5PX
         }
-        #a{
+
+        #a {
             background-color: black;
             color: aliceblue;
             font-size: 40px;
-           
+
         }
-        .siri{
+
+        .siri {
             border: 1px solid blanchedalmond;
             text-align: center;
-            width:485px;
+            width: 485px;
             height: 250px;
         }
-        #box4{
+
+        #box4 {
             border: 1px solid rgb(0, 157, 255);
             background-color: rgba(0, 89, 255, 0.701);
-            width:485px;
+            width: 485px;
             height: 40px;
             text-align: center;
             line-height: 33px;
         }
-        .siri1{
+
+        .siri1 {
             display: flex;
-            
+
         }
-        #box5{
+
+        #box5 {
             border: 1px solid blueviolet;
             color: rgb(19, 19, 20);
             background-color: rgba(0, 255, 255, 0.67);
             height: 40px;
-            line-height: 35px; 
+            line-height: 35px;
 
         }
-        #box6{
+
+        #box6 {
             border: 1px solid blueviolet;
             color: aliceblue;
             background-color: rgba(18, 19, 19, 0.914);
             height: 40px;
             line-height: 35px;
-            
+
         }
-        .wish1{
+
+        .wish1 {
             border: 1px solid rgba(0, 0, 0, 0.038);
             background-color: rgba(0, 0, 0, 0.634);
             color: aliceblue;
-            width:600px;
-            height:70px;
+            width: 600px;
+            height: 70px;
             line-height: 30px;
             text-align: center;
         }
-        .wish{
+
+        .wish {
             display: flex;
-        
-            
+
+
         }
-        .wish2{
+
+        .wish2 {
             border: 1px solid rgba(0, 0, 0, 0.038);
             background-color: aqua;
-            width:600px;
-            height:70px;
+            width: 600px;
+            height: 70px;
             line-height: 30px;
             text-align: center;
         }
-        #l{
-        position: absolute;
-        background-color: black;
-        color: beige;
-        font-size:15px;
-        padding: 5px;
-        width: 200px;
-        text-align: center;
-        border-radius: 7px;
-      }
-      input{
-        width: 1450px;
-        height: 30px;
-      }
-      #maa{
-        background-color: rgba(0, 0, 0, 0.273);
-      }
-      .idiv{
-        
-        width: 300px;
-        margin: 30px;
-      }
-      #ms{
-       background-color: antiquewhite;
-        display:flex;
-      }
-      img:hover{
-        opacity: 0.5;
-      }
-           
-           
-    
+
+        #l {
+            position: absolute;
+            background-color: black;
+            color: beige;
+            font-size: 15px;
+            padding: 5px;
+            width: 200px;
+            text-align: center;
+            border-radius: 7px;
+        }
+
+        input {
+            width: 1450px;
+            height: 30px;
+        }
+
+        #maa {
+            background-color: rgba(0, 0, 0, 0.273);
+        }
+
+        .idiv {
+
+            width: 300px;
+            margin: 30px;
+        }
+
+        #ms {
+            background-color: antiquewhite;
+            display: flex;
+        }
+
+        img:hover {
+            opacity: 0.5;
+        }
+
+        /* img {
+            width: 100%;
+        } */
     </style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 
 </head>
+
 <body>
 
     <h1>MY PORTFOLIO</h1><br><br><br><br><br>
@@ -194,70 +233,81 @@
         Filters:
         <a href="">ALL</a>
         <a href=""><span class="material-symbols-outlined">
-diamond
-</span> Design</a>
-       <a href=""><span class="material-symbols-outlined">
-imagesmode
-</span> Photos</a>
-       <a href=""><span class="material-symbols-outlined">
-search_check
-</span> Art</a>
+                diamond
+            </span> Design</a>
+        <a href=""><span class="material-symbols-outlined">
+                imagesmode
+            </span> Photos</a>
+        <a href=""><span class="material-symbols-outlined">
+                search_check
+            </span> Art</a>
 
-</div><br><br><br><br>
+    </div>
+    <br><br><br><br>
     <hr>
     <div class="main">
-    <div>
-        <img src="../image/mountains 1.jpg" width="450" height="300" alt="">
-        <h2>Lorem Ipsum</h2>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-    <div>
-        <img src="../image/mountains 2.jpg"width=450 height="300">
-        <h2>Lorem Ipsum</h2>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <div>
+            <img src="../image/mountains 1.jpg" width=400 height="300" alt="image">
+            <h2>Lorem Ipsum</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
+        <div>
+            <img src="../image/mountains 2.jpg"width=400 height="300" >
+            <h2>Lorem Ipsum</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
 
+        </div>
+        <div>
+            <img src="../image/mountains 3.jpg" width=400 height="300" alt="">
+            <h2>Lorem Ipsum</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
+
+        <div>
+            <img src="../image/mountains 4.jpg" width=400 height="300" alt="">
+            <h2>Lorem Ipsum</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
+        <div>
+            <img src="../image/mountains 5.jpg" width=400 height="300" alt="">
+            <h2>Lorem Ipsum</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
+        <div>
+            <img src="../image/mountains 6.jpg" width=400 height="300" alt="">
+            <h2>Lorem Ipsum</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
     </div>
-    <div>
-        <img src="../image/mountains 3.jpg"width=450 height="300" alt="">
-        <h2>Lorem Ipsum</h2>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-    </div>
+    <center>
+        <div>
+            <a href="">
+                <<< /a>
+                    <a id="a" href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">>></a>
+        </div>
+    </center><br><br>
     <div id="car">
-    <div>
-        <img src="../image/mountains 4.jpg"width=450 height="300" alt="">
-        <h2>Lorem Ipsum</h2>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <img src="../image/girl 1.jpg" width="700" height="500" alt="">
+        <img src="../image/girl 2.jpg" width="700" height="500" alt="">
     </div>
-    <div>
-        <img src="../image/mountains 5.jpg"width=450 height="300" alt="">
-        <h2>Lorem Ipsum</h2>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-    <div>
-        <img src="../image/mountains 6.jpg"width=450 height="300" alt="">
-        <h2>Lorem Ipsum</h2>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-</div>
-<center>
-<div>
-    <a href=""><<</a>
-    <a id="a" href="">1</a>
-    <a href="">2</a>
-    <a href="">3</a>
-    <a href="">4</a>
-    <a href="">>></a>
-</div>
-</center><br><br>
-<div>
-    <img src="../image/girl 1.jpg" width="700" height="500" alt="">
-    <img src="../image/girl 2.jpg" width="700" height="500" alt="">
-</div>
-<h3>About Me</h3>
-<p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-<h3>Technical Skills</h3>
-   <p>Photography</p>
+    <h3>About Me</h3>
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem
+        ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum.
+        Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt
+        sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+        fringilla.</p>
+    <h3>Technical Skills</h3>
+    <p>Photography</p>
     <div id="box">
         95%
     </div>
@@ -272,9 +322,9 @@ search_check
     <div id="box3">
         Download resume
     </div>
-   <h4>How much I charge
-    Basic</h4>
-    <div class="siri1" >
+    <h4>How much I charge
+        Basic</h4>
+    <div class="siri1">
         <div class="siri">
             <h4 id="box6">Basic</h4>
             <p>Web Design</p>
@@ -282,7 +332,7 @@ search_check
             <p>Mail Support</p>
             <p>$ 10
                 per month</p>
-                  <p id="box4">Sign Up</p>
+            <p id="box4">Sign Up</p>
         </div>
         <div class="siri">
             <h4 id="box5">Pro</h4>
@@ -291,7 +341,7 @@ search_check
             <p>Endless Support</p>
             <p>$ 25
                 per month</p>
-                <p id="box4">Sign Up</p>
+            <p id="box4">Sign Up</p>
         </div>
         <div class="siri">
             <h4 id="box6">Premium</h4>
@@ -300,55 +350,56 @@ search_check
             <p>Endless Support</p>
             <p>$ 25
                 per month</p>
-                <p id="box4">Sign Up</p>
+            <p id="box4">Sign Up</p>
         </div>
     </div>
-    
+
     <div id="maa">
         <h3>Contact Me</h3>
-    <div class="wish">
-        <div class="wish1">
-            <span class="material-symbols-outlined">
-                mail
+        <div class="wish">
+            <div class="wish1">
+                <span class="material-symbols-outlined">
+                    mail
                 </span><br>
                 email@email.com
-        </div>
-        <div class="wish2">
-            <span class="material-symbols-outlined">
-                location_on
+            </div>
+            <div class="wish2">
+                <span class="material-symbols-outlined">
+                    location_on
                 </span><br>
                 Chicago, US
-        </div>
-        <div class="wish1">
-            <span class="material-symbols-outlined">
-                call
+            </div>
+            <div class="wish1">
+                <span class="material-symbols-outlined">
+                    call
                 </span><br>
                 6754895
-        </div><br><br><br><br>
-    </div><br><br>
+            </div><br><br><br><br>
+        </div><br><br>
 
 
-    <hr>
-    
-    <div><br><br>
-        Name
-        <input id="n" type="text" placeholder=""><br><br>
-        Email
-        <input id="n" type="text" placeholder=""><br><br>
-        Massage
-        <input  id="n" type="text" placeholder=""><br><br>
-       
-       </div>
-       <b id="l"><span class="material-symbols-outlined">
-        send
-        </span>  Send massage</b>
-       <br><br>
+        <hr>
+
+        <div><br><br>
+            Name
+            <input id="n" type="text" placeholder=""><br><br>
+            Email
+            <input id="n" type="text" placeholder=""><br><br>
+            Massage
+            <input id="n" type="text" placeholder=""><br><br>
+
+        </div>
+        <b id="l"><span class="material-symbols-outlined">
+                send
+            </span> Send massage</b>
+        <br><br>
     </div><br><br>
     <div id="ms">
         <div class="idiv">
             <h3>FOOTER</h3>
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
-        
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.
+
                 Powered by w3.css</p>
         </div>
         <div class="idiv">
@@ -356,28 +407,29 @@ search_check
             <img src="../img/f1.jpg" width="40px" alt="">Lorem
             Sed mattis nunch <br>
             <img src="../img/f3.jpg" width="40px" alt="">Ipsum
-                Praes tinci sed   
+            Praes tinci sed
         </div>
         <div class="idiv">
             <h3>POPULAR TAGS</h3>
-        <b style="background-color: black; color: aliceblue;">travel</b>
-        <b style="background-color: rgb(121, 126, 131);">new yark</b>
-        <b style="background-color: rgb(118, 120, 123);">dinner</b>
-        <b style="background-color: rgb(118, 120, 123);">salmon</b>
-        <b style="background-color: rgb(118, 120, 123);">france</b>
-        <b style="background-color: rgb(118, 120, 123);">drinks</b>
-        <b style="background-color: rgb(118, 120, 123);">ideas</b>
-        <b style="background-color: rgb(118, 120, 123);">flavors</b>    
-        <b style="background-color: rgb(118, 120, 123);">cuisine</b>    
-        <b style="background-color: rgb(118, 120, 123);">chicken</b>    
-        <b style="background-color: rgb(118, 120, 123);">drassing</b>    
-        <b style="background-color: rgb(118, 120, 123);">fried</b>    
-        <b style="background-color: rgb(118, 120, 123);">dinner</b>    
-        <b style="background-color: rgb(118, 120, 123);">fish</b>
-        <b style="background-color: rgb(118, 120, 123);">duck</b>    
+            <b style="background-color: black; color: aliceblue;">travel</b>
+            <b style="background-color: rgb(121, 126, 131);">new yark</b>
+            <b style="background-color: rgb(118, 120, 123);">dinner</b>
+            <b style="background-color: rgb(118, 120, 123);">salmon</b>
+            <b style="background-color: rgb(118, 120, 123);">france</b>
+            <b style="background-color: rgb(118, 120, 123);">drinks</b>
+            <b style="background-color: rgb(118, 120, 123);">ideas</b>
+            <b style="background-color: rgb(118, 120, 123);">flavors</b>
+            <b style="background-color: rgb(118, 120, 123);">cuisine</b>
+            <b style="background-color: rgb(118, 120, 123);">chicken</b>
+            <b style="background-color: rgb(118, 120, 123);">drassing</b>
+            <b style="background-color: rgb(118, 120, 123);">fried</b>
+            <b style="background-color: rgb(118, 120, 123);">dinner</b>
+            <b style="background-color: rgb(118, 120, 123);">fish</b>
+            <b style="background-color: rgb(118, 120, 123);">duck</b>
         </div>
-        </div>
-           
-   
+    </div>
+
+
 </body>
+
 </html>
