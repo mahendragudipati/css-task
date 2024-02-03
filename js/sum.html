@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>
+     chick here
+    </button>
+    <script>
+
+   var a=document.getElementsByTagName("button")
+   a[0].addEventListener("click",mahi)
+   var s=0;
+   function mahi(){
+    s=s+1
+    var b=document.createElement("h1")
+    document.body.appendChild(b)
+    b.innerText=s
+   }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    #mahi{
+        border: 1px solid;
+        width: 300px;
+        height: 300px;
+        margin-top: 200px;
+    }
+    .pag{
+        margin-top:70px;
+    }
+   #btn{
+    position: absolute;
+    right:690px;
+    top: 450px;
+
+   }
+   .btn1{
+    position: absolute;
+    right: 780px;
+    top: 450px;
+   }
+   body{
+    background-color: rgba(0, 255, 255, 0.407);
+    color: rgba(13, 14, 10, 0.882);
+   }
+   </style>
+</head>
+<body>
+    <center>
+        <div id="mahi">
+            <div class="pag">
+    <h1>LOGIN PAGE</h1>
+    <label for="">USERNAME:</label>
+    <input type="text" placeholder="username"><br><br>
+    <label for="">PASSWORD:</label>
+    <input type="password"placeholder="password"><br><br><br>
+    <!-- <input type="button" value="SIGN IN"> -->
+    </div>
+</div>
+  </center>
+  <script>
+   var btn=document.createElement("button")
+   document.body.appendChild(btn)
+   btn.setAttribute("id","btn")
+   btn.innerText="LOG IN"
+   btn.addEventListener("click",mahi)
+   var btn1=document.createElement("button")
+   document.body.appendChild(btn1)
+   btn1.setAttribute("class","btn1")
+   btn1.innerText="GO BACK"
+   btn1.addEventListener("click",back)
+
+//    var divv=document.getElementsByTagName("div")
+   function mahi(){
+    window.location.assign("./card.html")
+
+   }
+   function back(){
+    window.history.back("./reg.html")
+   }
+  </script>
+</body>
+</html>

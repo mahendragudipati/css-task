@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -->
+    <style>
+        div{
+            text-align: center;
+            margin-top:170px;
+            color: rgb(17, 17, 15);
+            border: 1px solid;
+            width: 400px;
+            height: 450px;
+            margin-left: 550px;
+        }
+        body{
+            background-color: rgba(200, 230, 12, 0.804);
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>**REGISTER FORM**</h1>
+        <label for="">FIRST NAME:</label>
+        <input type="text" placeholder="FIRST NAME"><BR></BR>
+        <label for="">LAST NAME:</label>
+        <input type="text" placeholder="LAST NAME"><BR></BR>
+        <label for="">EMAIL:</label>
+        <input type="email" placeholder="EMAIL"><BR></BR>
+        <label for="">PASSWORD:</label>
+        <input type="password" placeholder="PASSWORD"><br><br>
+        <label for="">GENDER:</label>
+        <input type="radio">
+        <label for="">MALE</label>
+        <input type="radio">
+        <label for="">FEMALE</label><BR></BR>
+        <label for="">ADDRESS:</label>
+        <textarea name="address" rows="5"></textarea><br><BR></BR>
+        <button>SIGN IN</button>
+    </div>
+    <script>
+        var btn=document.getElementsByTagName("button")
+        btn[0].addEventListener("click",mahi)
+
+        function mahi(){
+            window.location.assign("./login1.html")
+        }
+    </script>
+</body>
+</html>

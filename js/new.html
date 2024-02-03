@@ -6,12 +6,40 @@
     <title>Document</title>
     <style>
         h2{
-            color: blueviolet;
+            color: rgb(246, 5, 73);
             text-align: center;
+            margin-top: 90PX;
+        }
+        #but{
+            /* text-align: center; */
+            position: relative;
+            left: 720px;
+            top: 50px;
         }
     </style>
 </head>
 <body>
+    <script>
+        function sum(){
+    // for(i=1;i<=10;i++){
+    //     console.log(i)
+    // }
+}
+console.log(sum())
+
+
+    </script>
     <h2>**THIS PAGE IS LOADING**</h2>
+    <script>
+        var btn=document.createElement("button")
+        document.body.appendChild(btn)
+        btn.setAttribute("id","but")
+        btn.innerText="GO BACK"
+        btn.addEventListener("click",mahi)
+        
+        function mahi(){
+            window.history.back("./card.html")
+        }
+    </script>
 </body>
 </html>
