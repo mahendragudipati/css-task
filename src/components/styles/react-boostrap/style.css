@@ -1,0 +1,12 @@
+table{
+    border: 2px solid pink;
+    /* border-collapse: collapse; */
+
+}
+tr td{
+    border: 2px solid pink;
+    width: 400px;
+    height: 40px;
+    /* border-collapse: collapse; */
+
+}

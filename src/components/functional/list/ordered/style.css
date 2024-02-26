@@ -1,0 +1,24 @@
+table,tr,th,td{
+    border: 2px solid pink;
+    border-collapse: collapse;
+}
+ 
+ table{
+    text-align: center;
+    /* position: absolute; */
+    left: 600px;
+    /* justify-content:center; */
+    /* margin-left: 650px; */
+    /* margin-top: 250px; */
+ }
+ form{
+    border: 2px solid rgb(10, 179, 235);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 600px;
+    border-radius: 50px;
+ }
+ input{
+    border-radius: 50px;
+ }
