@@ -6,7 +6,7 @@
 
 // import Pages from "./components/styles/bootstrap/carousal";
 // import UncontrolledExample from "./components/styles/bootstrap/carousal"
-import Table1 from "./components/styles/react-boostrap/table1";
+// import Table1 from "./components/styles/react-boostrap/table1";
 // import TableBox from "./components/styles/react-boostrap/table";
 
 // import BasicExample from "./components/styles/react-boostrap/Toasts";
@@ -57,24 +57,14 @@ import Table1 from "./components/styles/react-boostrap/table1";
 // // export default App;
 // import "./components/functional/list/ordered/style.css"
 // import StripedRowExample from "./components/styles/table";
-import "./components/styles/react-boostrap/style.css"
+// import "./components/styles/react-boostrap/style.css"
+import Count from "./components/state/count";
 
 function App(){
   return(
-    <div>
-      {/* <TableTask/>
-      <Forms/>
-      <StripedRowExample/> */}
-      {/* <BasicExample/>
-      <TableBox/>
-      <Navbars/>
-      <StaticExample/> */}
-      {/* <Pages/> */}
-      {/* <UncontrolledExample/> */}
-      <Table1/>
-      {/* <TableBox/> */}
-    
-    </div>
+    <>
+    <Count/>
+    </>
   )
 }
 export default App;
