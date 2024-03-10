@@ -1,0 +1,25 @@
+
+.box{
+    background-color: rgb(127, 234, 255);
+    color: brown;
+    /* border: 2px solid black; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* width: 400px;
+    height: 400px; */
+    text-align: center;
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.box1{
+    border: 2px solid black; 
+    width:350px;
+    height:350px;
+    margin: 10px;
+    
+}
+img{
+    width: 150px;
+    height: 200px;
+}

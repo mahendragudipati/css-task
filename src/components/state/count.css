@@ -1,0 +1,9 @@
+div{
+    border: 1px solid pink;
+    width: 400px;
+    background-color: aquamarine;
+    height: 200px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left:0px;
+}

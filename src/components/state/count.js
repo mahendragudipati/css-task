@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "../state/count.css"
 
 
 
@@ -11,7 +12,6 @@ class Count extends Component{
             isSubscribe : false
         }
     }
-
     increment =(value)=>{
         console.log("increment")
         this.setState({
@@ -41,8 +41,12 @@ class Count extends Component{
     }
     render(){
         return(
-            <>
-            <button onClick={this.handleSubscribe}>Subscribe</button>
+            <div>
+            <button onClick={this.handleSubscribe}>subscribe
+            {/* {
+               this.state.isSubscribe ? "Unsubscribe":"subscribe"
+            } */}
+            </button>
             {
              
              this.state.isSubscribe
@@ -60,7 +64,7 @@ class Count extends Component{
             }
 
             
-            </>
+            </div>
         )
     }
 }
