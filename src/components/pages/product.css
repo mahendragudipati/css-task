@@ -1,0 +1,20 @@
+.boxx{
+    border: 2px solid rgb(24, 23, 23);
+    width: 300px;
+    text-align: center;
+    border-radius: 50px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.471),yellow,rgba(255, 166, 0, 0.537),rgba(255, 192, 203, 0.603),rgba(0, 0, 255, 0.548));
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+.boxx:hover{
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.407);
+    transform: translate(3px,3px);
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/1496351.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

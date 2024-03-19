@@ -1,0 +1,17 @@
+
+
+.shopping-contact{
+    /* position: absolute;
+    left:380px; */
+    border: 2px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient(grey,rgba(247, 248, 242, 0.729),rgba(0, 0, 0, 0.411),skyblue);
+    text-align: center;
+    width:100%;
+    height:650px;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/cute-little-boy-summer-fashion-clothes-goes-shopping-happy-child-packages-hands-shopper-bag-outdoor-kid-walking-street-276296139.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

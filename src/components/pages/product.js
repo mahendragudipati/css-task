@@ -1,14 +1,12 @@
 import React from 'react'
-import Navbar from '../navbar/navbar'
 import CardProduct from '../hooks/useeffect/card'
 
-function home() {
+function ProductPage() {
   return (
     <div>
-      <Navbar/>
       <CardProduct/>
     </div>
   )
 }
 
-export default home
+export default ProductPage

@@ -1,0 +1,24 @@
+.register{
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left:38%;
+    top:25%;
+    border-radius: 20px;
+    /* background-color: rgb(222, 66, 98); */
+    background-image: linear-gradient(silver,lightblue);
+}
+.login{
+    border: 2px dotted black;
+    width: 350px;
+    height:250px;
+    position: absolute;
+    left: 38%;
+    top: 25%;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(silver,lightblue);
+
+}

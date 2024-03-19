@@ -5,9 +5,7 @@ import "./navbar.css"
 function Navbar() {
     const style={
         textDecoration:"none",
-        // color:"red",
-        // margin:"50px"
-        // padding:"20px"
+       
     }
   return (
     <div>
@@ -18,15 +16,19 @@ function Navbar() {
   </li>
   <li className="nav-item">
     {/* <a class="nav-link" href="#">Link</a> */}
-    <Link to={"/products"} style={style}><h3 className='head'>Products</h3></Link>
+    <Link to={"/setting"} style={style}><h3 className='head'>Products</h3></Link>
   </li>
   <li className="nav-item">
     {/* <a class="nav-link" href="#">Link</a> */}
-    <Link to={"/setting"} style={style}><h3 className='head'>Setting</h3></Link>
+    <Link to={"/contact"} style={style}><h3 className='head'>contact</h3></Link>
   </li>
   <li className="nav-item">
     {/* <a class="nav-link disabled" href="#">Disabled</a> */}
     <Link to={"/about"} style={style}><h3 className='head'>About</h3></Link>
+  </li>
+  <li className="nav-item">
+    {/* <a class="nav-link disabled" href="#">Disabled</a> */}
+    <Link to={"/register"} style={style}><h3 className='head'>Login</h3></Link>
   </li>
 </ul>
     </div>
